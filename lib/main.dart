@@ -75,7 +75,7 @@ class _MyHomePageState extends State<MyHomePage> {
   //}
 //}
 
-class Profile {}
+
 //
 // class ( {
 // }
