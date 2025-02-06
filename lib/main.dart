@@ -64,18 +64,19 @@ class _MyHomePageState extends State<MyHomePage> {
 
 
 
- // Row Profile() {
-   // return Row(crossAxisAlignment: CrossAxisAlignment.center, children: [
-     // Image.asset('asset/images/profile.png'),
-      //const SizedBox(width: 8),
-      //SizedBox(height: 20),
-      //Text("Pangrum",
-        //  style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold)),
-    //Text("฿ 1,560,112",style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold')',;
-  //}
-//}
+  Row Profile() {
+    return Row(crossAxisAlignment: CrossAxisAlignment.center, children: [
+      Image.asset('asset/images/profile.png'),
+      const SizedBox(width: 8),
+      SizedBox(height: 20),
+      Text("Pangrum",
+          style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold))]);
+  }
+}
 
 //
 // class ( {
 // }
  //bottonNavigationBar: Container(color)
+//Text("฿ 1,560,112",style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold)']'
+
