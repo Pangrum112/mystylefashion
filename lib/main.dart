@@ -47,7 +47,7 @@ class _MyHomePageState extends State<MyHomePage> {
             child: SafeArea(
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.start,
-                children: [Profile(),],
+                children: [Profile(), Mymoney()],
               ),
             ),
           ),
@@ -67,8 +67,18 @@ class _MyHomePageState extends State<MyHomePage> {
       const SizedBox(width: 8),
       SizedBox(height: 20),
       Text("Pangrum",
-          style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold))
+          style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold,
+              fontFamily: 'Afacad')),
     ]);
+  }
+
+  Row Mymoney() {
+    return Row(crossAxisAlignment: CrossAxisAlignment.end, children: [
+      const SizedBox(width: 8),
+      SizedBox(height: 20),
+      Text(" ฿ 1,560,112",
+        style: TextStyle(fontSize: 20,))
+    ],);
 
 
 
